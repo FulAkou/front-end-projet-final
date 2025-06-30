@@ -1,61 +1,86 @@
-FRONT-END-PROJET-FINAL
-Transformer les déchets en actions communautaires impactantes
+# Projet Final Frontend
 
-Dernier commit GitHub · Langage principal du dépôt · Nombre de langages utilisés
+Bienvenue sur le frontend de votre projet final ! Ce projet est une application web moderne développée avec React et Tailwind CSS, permettant la gestion d'offres et de réservations.
 
-Construit avec les outils et technologies suivants :
-JSON · Markdown · npm · Autoprefixer · PostCSS
-JavaScript · React · Vite · ESLint · Axios
+## 🚀 Présentation
 
-Table des matières
-Aperçu
+Cette application permet aux utilisateurs de :
 
-Démarrage rapide
+- Consulter une liste d'offres
+- Voir les détails d'une offre
+- Créer, modifier et supprimer leurs propres offres
+- Réserver des offres
+- Gérer leurs réservations
+- S'inscrire et se connecter
 
-Pré-requis
+## 🖥️ Démo
 
-Installation
+Ajoutez ici un lien vers une démo en ligne ou une capture d'écran si disponible.
 
-Utilisation
+## 📦 Installation
 
-Aperçu
-front-end-projet-final est un modèle de développement React optimisé pour une itération rapide et une qualité de code élevée. Construit avec Vite, il offre des rechargements instantanés et un processus de build ultra rapide, idéal pour les projets web modernes.
+1. **Cloner le dépôt**
+   ```bash
+   git clone <url-du-repo>
+   cd frontend
+   ```
+2. **Installer les dépendances**
+   ```bash
+   npm install
+   ```
+3. **Lancer l'application**
+   ```bash
+   npm run dev
+   ```
+   L'application sera accessible sur [http://localhost:5173](http://localhost:5173) par défaut.
 
-Pourquoi front-end-projet-final ?
+## 🗂️ Structure du projet
 
-Ce projet vise à simplifier la configuration des applications React tout en fournissant des outils essentiels pour la maintenabilité et la cohérence du style. Les fonctionnalités clés incluent :
+```
+frontend/
+├── public/               # Fichiers statiques
+├── src/
+│   ├── api/              # Gestion des appels API (axios)
+│   ├── assets/           # Images et ressources statiques
+│   ├── components/       # Composants réutilisables (Navbar, Footer, etc.)
+│   ├── pages/            # Pages principales de l'application
+│   ├── App.jsx           # Composant racine
+│   └── main.jsx          # Point d'entrée de l'application
+├── index.html            # Fichier HTML principal
+├── package.json          # Dépendances et scripts
+└── README.md             # Documentation
+```
 
-🛠️ Remplacement de modules à chaud : mises à jour immédiates pendant le développement, pour gagner du temps.
+## 🛠️ Technologies utilisées
 
-🎯 Intégration d'ESLint : garantit de bonnes pratiques de codage et un code propre.
+- [React](https://react.dev/) (Vite)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/)
+- [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+- [Vite](https://vitejs.dev/)
 
-🎨 Personnalisation avec Tailwind CSS : permet un design UI flexible et cohérent.
+## 🎨 Bonnes pratiques
 
-🔗 Communication avec l'API : configuration centralisée d’Axios pour faciliter les requêtes et renforcer la sécurité.
+- Respecter la structure des dossiers
+- Utiliser des composants réutilisables
+- Suivre les conventions de nommage (CamelCase pour les composants, kebab-case pour les fichiers)
+- Utiliser des hooks React pour la gestion d'état et d'effets
+- Centraliser les appels API dans `src/api/`
 
-🚀 Environnement de développement rapide : grâce à Vite pour des builds efficaces.
+## 🤝 Contribution
 
-🧩 Architecture modulaire : facilite le développement d’applications évolutives avec plusieurs composants et pages.
+Les contributions sont les bienvenues !
 
-Démarrage rapide
-Pré-requis
-Ce projet nécessite les éléments suivants :
+1. Forkez le projet
+2. Créez une branche (`git checkout -b feature/ma-nouvelle-fonctionnalite`)
+3. Commitez vos changements (`git commit -am 'Ajout d'une nouvelle fonctionnalité'`)
+4. Poussez la branche (`git push origin feature/ma-nouvelle-fonctionnalite`)
+5. Ouvrez une Pull Request
 
-Langage de programmation : JavaScript
-Gestionnaire de paquets : npm
+## 📄 Licence
 
-Installation
-Voici comment cloner le projet et installer les dépendances :
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
 
-Cloner le dépôt :
-git clone https://github.com/FulAkou/front-end-projet-final
+---
 
-Se rendre dans le dossier du projet :
-cd front-end-projet-final
-
-Installer les dépendances avec npm :
-npm install
-
-Utilisation
-Pour démarrer le projet :
-npm start
+_Développé dans le cadre du projet final._
