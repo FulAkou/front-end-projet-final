@@ -18,8 +18,6 @@ Installation
 
 Utilisation
 
-Tests
-
 Aperçu
 front-end-projet-final est un modèle de développement React optimisé pour une itération rapide et une qualité de code élevée. Construit avec Vite, il offre des rechargements instantanés et un processus de build ultra rapide, idéal pour les projets web modernes.
 
@@ -44,41 +42,20 @@ Pré-requis
 Ce projet nécessite les éléments suivants :
 
 Langage de programmation : JavaScript
-
 Gestionnaire de paquets : npm
 
 Installation
 Voici comment cloner le projet et installer les dépendances :
 
 Cloner le dépôt :
-
-bash
-Copier
-Modifier
 git clone https://github.com/FulAkou/front-end-projet-final
+
 Se rendre dans le dossier du projet :
-
-bash
-Copier
-Modifier
 cd front-end-projet-final
-Installer les dépendances avec npm :
 
-bash
-Copier
-Modifier
+Installer les dépendances avec npm :
 npm install
+
 Utilisation
 Pour démarrer le projet :
-
-bash
-Copier
-Modifier
 npm start
-Tests
-Le projet utilise le framework de test {test_framework}. Pour lancer les tests :
-
-bash
-Copier
-Modifier
-npm test
