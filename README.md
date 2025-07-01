@@ -1,12 +1,86 @@
-# React + Vite
+# Projet Final Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur le frontend de votre projet final ! Ce projet est une application web moderne développée avec React et Tailwind CSS, permettant la gestion d'offres et de réservations.
 
-Currently, two official plugins are available:
+## 🚀 Présentation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Cette application permet aux utilisateurs de :
 
-## Expanding the ESLint configuration
+- Consulter une liste d'offres
+- Voir les détails d'une offre
+- Créer, modifier et supprimer leurs propres offres
+- Réserver des offres
+- Gérer leurs réservations
+- S'inscrire et se connecter
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Démo
+
+Ajoutez ici un lien vers une démo en ligne ou une capture d'écran si disponible.
+
+## 📦 Installation
+
+1. **Cloner le dépôt**
+   ```bash
+   git clone <url-du-repo>
+   cd frontend
+   ```
+2. **Installer les dépendances**
+   ```bash
+   npm install
+   ```
+3. **Lancer l'application**
+   ```bash
+   npm run dev
+   ```
+   L'application sera accessible sur [http://localhost:5173](http://localhost:5173) par défaut.
+
+## 🗂️ Structure du projet
+
+```
+frontend/
+├── public/               # Fichiers statiques
+├── src/
+│   ├── api/              # Gestion des appels API (axios)
+│   ├── assets/           # Images et ressources statiques
+│   ├── components/       # Composants réutilisables (Navbar, Footer, etc.)
+│   ├── pages/            # Pages principales de l'application
+│   ├── App.jsx           # Composant racine
+│   └── main.jsx          # Point d'entrée de l'application
+├── index.html            # Fichier HTML principal
+├── package.json          # Dépendances et scripts
+└── README.md             # Documentation
+```
+
+## 🛠️ Technologies utilisées
+
+- [React](https://react.dev/) (Vite)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/)
+- [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+- [Vite](https://vitejs.dev/)
+
+## 🎨 Bonnes pratiques
+
+- Respecter la structure des dossiers
+- Utiliser des composants réutilisables
+- Suivre les conventions de nommage (CamelCase pour les composants, kebab-case pour les fichiers)
+- Utiliser des hooks React pour la gestion d'état et d'effets
+- Centraliser les appels API dans `src/api/`
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues !
+
+1. Forkez le projet
+2. Créez une branche (`git checkout -b feature/ma-nouvelle-fonctionnalite`)
+3. Commitez vos changements (`git commit -am 'Ajout d'une nouvelle fonctionnalité'`)
+4. Poussez la branche (`git push origin feature/ma-nouvelle-fonctionnalite`)
+5. Ouvrez une Pull Request
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
+
+---
+
+_Développé dans le cadre du projet final._
